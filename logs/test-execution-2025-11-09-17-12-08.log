@@ -1,0 +1,11 @@
+2025-11-09 17:21:47 INFO  ProductsTest:24 - Logged in successfully
+2025-11-09 17:21:47 INFO  ProductsTest:27 - ProductsPage initialized
+2025-11-09 17:21:47 INFO  ProductsTest:51 - Product detail navigation verified for product: Sauce Labs Backpack
+2025-11-09 17:21:52 INFO  ProductsTest:24 - Logged in successfully
+2025-11-09 17:21:52 INFO  ProductsTest:27 - ProductsPage initialized
+2025-11-09 17:21:52 INFO  ProductsTest:33 - Number of products displayed: 6
+2025-11-09 17:21:55 INFO  ProductsTest:24 - Logged in successfully
+2025-11-09 17:21:55 INFO  ProductsTest:27 - ProductsPage initialized
+2025-11-09 17:21:55 INFO  ProductsPage:65 - Selected sort option: Price (low to high)
+2025-11-09 17:21:55 INFO  ProductsPage:74 - Collected all product prices: [7.99, 9.99, 15.99, 15.99, 29.99, 49.99]
+2025-11-09 17:21:55 INFO  ProductsTest:42 - Verified product sorting (low to high) successfully

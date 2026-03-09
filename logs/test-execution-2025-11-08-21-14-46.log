@@ -1,0 +1,13 @@
+2025-11-08 21:14:50 INFO  LoginTest:20 - Opening Login Page
+2025-11-08 21:14:50 INFO  LoginTest:52 - Starting empty credentials test
+2025-11-08 21:14:50 WARN  LoginTest:55 - Empty credentials - Error message displayed correctly
+2025-11-08 21:14:52 INFO  LoginTest:20 - Opening Login Page
+2025-11-08 21:14:52 INFO  LoginTest:38 - Starting invalid login test
+2025-11-08 21:14:53 WARN  LoginTest:47 - Invalid login attempt - Error message displayed: Epic sadface: Username and password do not match any user in this service
+2025-11-08 21:14:56 INFO  LoginTest:20 - Opening Login Page
+2025-11-08 21:14:56 INFO  LoginTest:60 - Starting locked out user test
+2025-11-08 21:14:56 WARN  LoginTest:67 - Locked-out user test - Error message verified successfully
+2025-11-08 21:14:58 INFO  LoginTest:20 - Opening Login Page
+2025-11-08 21:14:58 INFO  LoginTest:25 - Starting valid login test
+2025-11-08 21:14:59 INFO  LoginTest:30 - Clicked on Login button
+2025-11-08 21:14:59 INFO  LoginTest:33 - Valid login successful - redirected to inventory page

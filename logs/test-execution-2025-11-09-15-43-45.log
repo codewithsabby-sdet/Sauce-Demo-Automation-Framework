@@ -1,0 +1,4 @@
+2025-11-09 15:44:03 INFO  ProductsTest:31 - Number of products displayed: 6
+2025-11-09 15:44:07 INFO  ProductsPage:54 - Selected sort option: Price (low to high)
+2025-11-09 15:44:07 INFO  ProductsPage:63 - Collected all product prices: [7.99, 9.99, 15.99, 15.99, 29.99, 49.99]
+2025-11-09 15:44:07 INFO  ProductsTest:40 - Verified product sorting (low to high) successfully
