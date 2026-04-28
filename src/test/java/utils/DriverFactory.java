@@ -1,62 +1,60 @@
 package utils;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.time.Duration;
+import org.openqa.selenium.edge.EdgeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 
 public class DriverFactory {
 
     private static WebDriver driver;
 
-    // Initialize driver based on browser name from config file
     public static WebDriver initializeDriver() {
-        String browser = ConfigReader.getProperty("browser"); // read from config.properties
+        String browser = ConfigReader.getProperty("browser").toLowerCase();
 
         switch (browser) {
             case "chrome":
                 WebDriverManager.chromedriver().setup();
-                driver = new ChromeDriver();
+                ChromeOptions chromeOptions = new ChromeOptions();
+                chromeOptions.addArguments("--headless=new");
+                driver = new ChromeDriver(chromeOptions);
                 break;
 
             case "firefox":
                 WebDriverManager.firefoxdriver().setup();
-                driver = new FirefoxDriver();
+                FirefoxOptions firefoxOptions = new FirefoxOptions();
+                firefoxOptions.addArguments("-headless");
+                driver = new FirefoxDriver(firefoxOptions);
                 break;
 
             case "edge":
                 WebDriverManager.edgedriver().setup();
-                driver = new EdgeDriver();
+                EdgeOptions edgeOptions = new EdgeOptions();
+                edgeOptions.addArguments("--headless=new");
+                driver = new EdgeDriver(edgeOptions);
                 break;
 
             default:
                 throw new IllegalArgumentException("Unsupported browser: " + browser);
         }
 
+        // Window maximize doesn't always work in headless, but it doesn't hurt
         driver.manage().window().maximize();
         return driver;
     }
 
-    // Getter method so tests can fetch the same driver instance
     public static WebDriver getDriver() {
         return driver;
     }
 
-    // To close driver after each test
     public static void quitDriver() {
         if (driver != null) {
             driver.quit();
             driver = null;
         }
     }
-
-
 }
-
