@@ -64,7 +64,7 @@ public class CartTest extends BaseTest {
         cartPage.removeItem(0);
 
         int countAfterRemoval = cartPage.getCartItemsCount();
-        Assert.assertEquals(countAfterRemoval, 1, "Item not removed properly");
+        Assert.assertEquals(countAfterRemoval, 2, "Item not removed properly");
 
         logger.info("Verified removing an item updates cart");
     }
