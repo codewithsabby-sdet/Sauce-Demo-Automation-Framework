@@ -32,7 +32,6 @@ public class DriverFactory {
                 break;
 
             case "edge":
-                WebDriverManager.edgedriver().setup();
                 EdgeOptions edgeOptions = new EdgeOptions();
                 edgeOptions.addArguments("--headless=new");
                 driver = new EdgeDriver(edgeOptions);

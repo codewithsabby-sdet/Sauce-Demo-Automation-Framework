@@ -32,7 +32,7 @@ public class CartTest extends BaseTest {
 
     @Test
     public void verifyItemsAppearInCart() {
-        productsPage.addFirstNProductsToCart(1);
+        productsPage.addFirstNProductsToCart(2);
         productsPage.openCart();
 
         List<?> names = cartPage.getCartItemNames();
@@ -58,7 +58,7 @@ public class CartTest extends BaseTest {
 
     @Test
     public void verifyRemoveItemUpdatesCart() {
-        productsPage.addFirstNProductsToCart(2);
+        productsPage.addFirstNProductsToCart(3);
         productsPage.openCart();
 
         cartPage.removeItem(0);
@@ -71,7 +71,7 @@ public class CartTest extends BaseTest {
 
     @Test
     public void verifyContinueShoppingNavigatesBackToProducts() {
-        productsPage.addFirstNProductsToCart(1);
+        productsPage.addFirstNProductsToCart(2);
         productsPage.openCart();
         cartPage.clickContinueShopping();
 

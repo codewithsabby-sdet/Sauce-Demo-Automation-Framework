@@ -1,34 +1,34 @@
-2026-03-09 19:45:45 INFO  CheckoutStepPageTwoTest:25 - User logged in successfully
-2026-03-09 19:45:45 INFO  ProductsPage:103 - 2 products added to cart
-2026-03-09 19:45:45 INFO  CheckoutStepPageTwoTest:29 - Added 2 products to cart
-2026-03-09 19:45:46 INFO  ProductsPage:118 - Navigated to cart page
-2026-03-09 19:45:46 INFO  CartPage:66 - Clicked Checkout button
-2026-03-09 19:45:46 INFO  CheckoutStepPageTwoTest:42 - Navigated to Checkout Step Two page
-2026-03-09 19:45:46 INFO  CheckoutStepPageTwo:68 - Clicked on Cancel button
-2026-03-09 19:45:46 INFO  CheckoutStepPageTwoTest:77 - Clicked Cancel
-2026-03-09 19:45:50 INFO  CheckoutStepPageTwoTest:25 - User logged in successfully
-2026-03-09 19:45:50 INFO  ProductsPage:103 - 2 products added to cart
-2026-03-09 19:45:50 INFO  CheckoutStepPageTwoTest:29 - Added 2 products to cart
-2026-03-09 19:45:50 INFO  ProductsPage:118 - Navigated to cart page
-2026-03-09 19:45:51 INFO  CartPage:66 - Clicked Checkout button
-2026-03-09 19:45:51 INFO  CheckoutStepPageTwoTest:42 - Navigated to Checkout Step Two page
-2026-03-09 19:45:52 INFO  CheckoutStepPageTwo:61 - Clicked Finish button successfully
-2026-03-09 19:45:52 INFO  CheckoutStepPageTwoTest:69 - Clicked Finish
-2026-03-09 19:45:56 INFO  CheckoutStepPageTwoTest:25 - User logged in successfully
-2026-03-09 19:45:56 INFO  ProductsPage:103 - 2 products added to cart
-2026-03-09 19:45:56 INFO  CheckoutStepPageTwoTest:29 - Added 2 products to cart
-2026-03-09 19:45:56 INFO  ProductsPage:118 - Navigated to cart page
-2026-03-09 19:45:56 INFO  CartPage:66 - Clicked Checkout button
-2026-03-09 19:45:57 INFO  CheckoutStepPageTwoTest:42 - Navigated to Checkout Step Two page
-2026-03-09 19:45:57 INFO  CheckoutStepPageTwo:32 - Fetching all item names in checkout overview
-2026-03-09 19:45:57 INFO  CheckoutStepPageTwoTest:48 - Number of items found: 2
-2026-03-09 19:46:01 INFO  CheckoutStepPageTwoTest:25 - User logged in successfully
-2026-03-09 19:46:01 INFO  ProductsPage:103 - 2 products added to cart
-2026-03-09 19:46:01 INFO  CheckoutStepPageTwoTest:29 - Added 2 products to cart
-2026-03-09 19:46:02 INFO  ProductsPage:118 - Navigated to cart page
-2026-03-09 19:46:02 INFO  CartPage:66 - Clicked Checkout button
-2026-03-09 19:46:02 INFO  CheckoutStepPageTwoTest:42 - Navigated to Checkout Step Two page
-2026-03-09 19:46:02 INFO  CheckoutStepPageTwo:38 - Fetching all item prices in checkout overview
-2026-03-09 19:46:02 INFO  CheckoutStepPageTwo:80 - Calculated expected subtotal: 39.98
-2026-03-09 19:46:02 INFO  CheckoutStepPageTwoTest:58 - Expected subtotal: 39.98
-2026-03-09 19:46:02 INFO  CheckoutStepPageTwoTest:59 - Displayed subtotal: 39.98
+2026-04-30 00:33:20 INFO  CheckoutStepPageTwoTest:25 - User logged in successfully
+2026-04-30 00:33:20 INFO  ProductsPage:103 - 2 products added to cart
+2026-04-30 00:33:20 INFO  CheckoutStepPageTwoTest:29 - Added 2 products to cart
+2026-04-30 00:33:21 INFO  ProductsPage:118 - Navigated to cart page
+2026-04-30 00:33:21 INFO  CartPage:66 - Clicked Checkout button
+2026-04-30 00:33:21 INFO  CheckoutStepPageTwoTest:42 - Navigated to Checkout Step Two page
+2026-04-30 00:33:21 INFO  CheckoutStepPageTwo:68 - Clicked on Cancel button
+2026-04-30 00:33:21 INFO  CheckoutStepPageTwoTest:77 - Clicked Cancel
+2026-04-30 00:33:24 INFO  CheckoutStepPageTwoTest:25 - User logged in successfully
+2026-04-30 00:33:24 INFO  ProductsPage:103 - 2 products added to cart
+2026-04-30 00:33:24 INFO  CheckoutStepPageTwoTest:29 - Added 2 products to cart
+2026-04-30 00:33:24 INFO  ProductsPage:118 - Navigated to cart page
+2026-04-30 00:33:24 INFO  CartPage:66 - Clicked Checkout button
+2026-04-30 00:33:25 INFO  CheckoutStepPageTwoTest:42 - Navigated to Checkout Step Two page
+2026-04-30 00:33:25 INFO  CheckoutStepPageTwo:61 - Clicked Finish button successfully
+2026-04-30 00:33:25 INFO  CheckoutStepPageTwoTest:69 - Clicked Finish
+2026-04-30 00:33:28 INFO  CheckoutStepPageTwoTest:25 - User logged in successfully
+2026-04-30 00:33:28 INFO  ProductsPage:103 - 2 products added to cart
+2026-04-30 00:33:28 INFO  CheckoutStepPageTwoTest:29 - Added 2 products to cart
+2026-04-30 00:33:28 INFO  ProductsPage:118 - Navigated to cart page
+2026-04-30 00:33:29 INFO  CartPage:66 - Clicked Checkout button
+2026-04-30 00:33:29 INFO  CheckoutStepPageTwoTest:42 - Navigated to Checkout Step Two page
+2026-04-30 00:33:29 INFO  CheckoutStepPageTwo:32 - Fetching all item names in checkout overview
+2026-04-30 00:33:29 INFO  CheckoutStepPageTwoTest:48 - Number of items found: 2
+2026-04-30 00:33:32 INFO  CheckoutStepPageTwoTest:25 - User logged in successfully
+2026-04-30 00:33:32 INFO  ProductsPage:103 - 2 products added to cart
+2026-04-30 00:33:32 INFO  CheckoutStepPageTwoTest:29 - Added 2 products to cart
+2026-04-30 00:33:32 INFO  ProductsPage:118 - Navigated to cart page
+2026-04-30 00:33:32 INFO  CartPage:66 - Clicked Checkout button
+2026-04-30 00:33:33 INFO  CheckoutStepPageTwoTest:42 - Navigated to Checkout Step Two page
+2026-04-30 00:33:33 INFO  CheckoutStepPageTwo:38 - Fetching all item prices in checkout overview
+2026-04-30 00:33:33 INFO  CheckoutStepPageTwo:80 - Calculated expected subtotal: 39.98
+2026-04-30 00:33:33 INFO  CheckoutStepPageTwoTest:58 - Expected subtotal: 39.98
+2026-04-30 00:33:33 INFO  CheckoutStepPageTwoTest:59 - Displayed subtotal: 39.98

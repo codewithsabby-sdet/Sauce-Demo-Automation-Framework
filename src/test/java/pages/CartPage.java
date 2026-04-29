@@ -22,7 +22,7 @@ public class CartPage {
     private By itemPrice = By.className("inventory_item_price");
     private By removeButtons = By.xpath("//button[text()='Remove']");
     private By continueShoppingBtn = By.id("continue-shopping");
-    private By checkoutBtn = By.id("checkout");
+    private By checkoutBtn = By.xpath("//button[@id='checkout']");
 
     public CartPage(WebDriver driver) {
         this.driver = driver;
