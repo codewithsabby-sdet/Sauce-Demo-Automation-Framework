@@ -18,14 +18,12 @@ public class DriverFactory {
 
         switch (browser) {
             case "chrome":
-                WebDriverManager.chromedriver().setup();
                 ChromeOptions chromeOptions = new ChromeOptions();
                 chromeOptions.addArguments("--headless=new");
                 driver = new ChromeDriver(chromeOptions);
                 break;
 
             case "firefox":
-                WebDriverManager.firefoxdriver().setup();
                 FirefoxOptions firefoxOptions = new FirefoxOptions();
                 firefoxOptions.addArguments("-headless");
                 driver = new FirefoxDriver(firefoxOptions);
